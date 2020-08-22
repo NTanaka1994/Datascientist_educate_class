@@ -1,0 +1,5 @@
+f=open("bank-full.csv","r")
+a=f.read()
+a=a.replace(";",",")
+f=open("bank-full.csv","w")
+f.write(a)
